@@ -32,7 +32,18 @@ print (get_epd_urls())
 
 
 
+def main():
+    #Creates a list with download links for each epd available on the site
+    url_list = get_epd_urls(base_url, database_url)
 
+    #Downloads the pdfs and extracts the necessary data from them, for each epd as a python object and returns a list of those objects
+    extract_data_from_url(url_list)
+
+
+
+
+if __name__ == "__main__":
+    main()
 
 
 
