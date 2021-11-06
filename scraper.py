@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
+import ctypes
+from ctypes.util import find_library
 
 
 database_url = 'https://www.epddanmark.dk/epd-databasen/'
