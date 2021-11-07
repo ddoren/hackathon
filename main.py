@@ -1,4 +1,5 @@
-from pdf_to_data import extract_data_from_url
+from os import system
+from pdf_to_data import extract
 from site_to_links import get_epd_urls
 
 #Links to the epddanmark, epd source
@@ -12,13 +13,14 @@ base_url = 'https://www.epddanmark.dk'
 
 
 def main():
-    url_list = get_epd_urls(base_url, database_url)
+    list_url = get_epd_urls(base_url, database_url)
+    
 
-    extract_data_from_url(url_list)
+    extract(list_url, 3)
 
 
 if __name__ == "__main__":
     main()
 
 
-#WE THE MFcks who push directly into main \_/
+
