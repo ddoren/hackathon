@@ -4,6 +4,8 @@ import os
 import json
 import shutil
 
+#TODO
+#Move this all to a better location
 epd_pop_list = []
 temp_pdf_location = "./temp_pdf/single_epd.pdf"
 temp_json_location = "./temp_json"
