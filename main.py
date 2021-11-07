@@ -2,6 +2,12 @@ from os import system
 from pdf_to_data import extract
 from site_to_links import get_epd_urls
 
+#TO RUN 
+#$> pip install virtualenv
+#$> py -m venv .env
+#$> .\.env\Scripts\activate
+#$> pip install -r requirements.txt
+
 #Links to the epddanmark, epd source
 database_url = 'https://www.epddanmark.dk/epd-databasen/'
 base_url = 'https://www.epddanmark.dk'
