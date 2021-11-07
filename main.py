@@ -1,3 +1,4 @@
+from pdf_to_data import extract_data_from_url
 from site_to_links import get_epd_urls
 
 #Links to the epddanmark, epd source
