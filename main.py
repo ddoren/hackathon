@@ -2,6 +2,8 @@ from os import system
 from pdf_to_data import extract
 from site_to_links import get_epd_urls
 
+#TODO
+#Put this into the github readme file 
 #TO RUN 
 #$> pip install virtualenv
 #$> py -m venv .env
