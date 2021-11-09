@@ -2,6 +2,9 @@
 
 class Epd:
 
+    def get_sum(self):
+        return self.A1 
+
     def __init__(self, name, A1, A2, A3, A4, A5, B1, B2, B3, B4, B5, B6, B7, C1, C2, C3, C4, D):
         self.name = name
         #A stage
@@ -29,10 +32,17 @@ class Epd:
         #D stage | Benefits beyond the system boundary
         self.D = D 
 
-        self.sum = get_sum(self)
+        #PWD Sum 
+        #TODO
+        #Find a way to calculate this in a nicer manner / sanitize the input upon object creation
+        self.sum = A1 + A2 + A3 + A4 + A5 + B1 + B2 + B3 + B4 + B5 + B6 + B7 + C1 + C2 + C3 + C4 + D
 
         #List of the manufacturers
-        self.manufacturers = manufacturers
+        #TODO 
+        #Find a way to extract and get manufacturers
+        self.manufacturers = []
+
+
 
 
 
