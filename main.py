@@ -3,6 +3,9 @@ from pdf_to_data import extract
 from site_to_links import get_epd_urls
 
 #TODO
+#Clean up the requirements folder 
+
+#TODO
 #Put this into the github readme file 
 #TO RUN 
 #$> pip install virtualenv
